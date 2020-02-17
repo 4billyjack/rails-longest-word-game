@@ -1,0 +1,12 @@
+<div class="container w-75">
+  <h1>Result</h1>
+
+  <% answer_up = @answer.upcase %>
+
+  <br>
+
+  <h3><%= @result[:message] %></h3>
+
+  <%= link_to "Play Again", new_path %>
+
+</div>
